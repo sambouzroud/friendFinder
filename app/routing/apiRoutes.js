@@ -7,7 +7,8 @@ var totalDifference = 0;
 
 module.exports = function(app){
 	app.get('/api/friends', function(req, res){
-		res.json(friends);
+		console.log(friendData);
+		res.json(friendData);
 	});
 
 
@@ -28,26 +29,26 @@ module.exports = function(app){
 		var totalDifference = 0;
 
 		
-		for(var i = 0; i < [friends].length-1; i++){
-			console.log(friends[i].name);
+		for(var i = 0; i < friendData.length-1; i++){
+			console.log(friendData[i].name);
 			totalDifference = 0;
 
 			
 			for(var j = 0; j < 10; j++){
 				
-				totalDifference += Math.abs(parseInt(usrScores[j]) - parseInt(friends[i].scores[j]));
+				totalDifference = Math.abs(parseInt(usrScores[j]) - parseInt(friendData[i].scores[j]));
 				
-				if (totalDifference <= greatMatch.friendDifference){
-
+				// if (totalDifference <= greatMatch.friendDifference){
 					
-					greatMatch.name = friends[i].name;
-					greatMatch.photo = friends[i].photo;
+					console.log(friendData[i].name);
+					greatMatch.name = friendData[i].name;
+					greatMatch.photo = friendData[i].photo;
 					greatMatch.matchDifference = totalDifference;
-				}
+				// }
 			}
 		}
 
-		friends.push(usrData);
+		friendData.push(usrData);
  
 		res.json(greatMatch);
 	});
