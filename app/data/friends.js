@@ -1,0 +1,165 @@
+var friends = [
+  {
+      "name":"Deepika Padukone",
+      "photo":"https://upload.wikimedia.org/wikipedia/commons/5/5d/Deepika_Padukone_at_Piku_event.jpg",
+      "scores":[
+         5,
+         1,
+         4,
+         4,
+         5,
+         1,
+         2,
+         5,
+         4,
+         1
+          ]
+      },
+  {
+  "name":"Dakota Johnson",
+  "photo":"https://newhdphotos.com/wp-content/uploads/2017/10/0bfaf2595ee6dd0cb09f8bba39ab0c3f.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     4,
+     5,
+     1,
+     2,
+     5,
+     4,
+     1
+      ]
+},
+{
+  "name":"Rachel McAdams",
+  "photo":"https://upload.wikimedia.org/wikipedia/commons/8/8e/Rachel_McAdams_3.jpg",
+  "scores":[
+     9,
+     1,
+     4,
+     4,
+     5,
+     1,
+     2,
+     5,
+     4,
+     1
+      ]
+},
+{
+  "name":"Margot Robbie",
+  "photo":"https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/2/2d/Margot_Robbie.jpg/revision/latest?cb=20161030211306",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Kristen Bell",
+  "photo":"https://vignette.wikia.nocookie.net/fiftyshadesofgrey/images/3/36/Kristen_bell.jpg/revision/latest?cb=20130330221442",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Kate Middleton",
+  "photo":"https://upload.wikimedia.org/wikipedia/commons/a/a4/Kate_Middleton_at_the_Garter_Procession_2008.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Emma stone",
+  "photo":"http://feelgrafix.com/data_images/out/6/794257-emma-stone.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Priyanka Chopra",
+  "photo":"https://vignette.wikia.nocookie.net/pixarcars/images/8/81/Priyanka_Chopra.jpg/revision/latest?cb=20130313163230",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Jessica Biel",
+  "photo":"http://www.imageleech.net/wp-content/uploads/sites/49/2016/03/Jessica-Biel.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Diane Kruger",
+  "photo":"https://gabtor.files.wordpress.com/2010/02/diane-kruger-244.jpeg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+}
+]
+
+
+module.exports = friends;
